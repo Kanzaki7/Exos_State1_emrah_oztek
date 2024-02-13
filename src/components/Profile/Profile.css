@@ -1,0 +1,385 @@
+@font-face {
+    font-family: lightRubik;
+    src: url('../../Assets/Fonts/Rubik/static/Rubik-Light.ttf');
+}
+@font-face {
+    font-family: regularRubik;
+    src: url('../../Assets/Fonts/Rubik/static/Rubik-Regular.ttf');
+}
+@font-face {
+    font-family: mediumRubik;
+    src: url('../../Assets/Fonts/Rubik/static/Rubik-Medium.ttf');
+}
+
+.profile {
+    width: 15%;
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.listProfile {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(235, 46%, 20%);
+    /* position: relative; */
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: end; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.timeDiv {
+    width: 100%;
+    height: 30%;
+    color: hsl(235, 45%, 61%);
+    font-family: regularRubik;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.timeDiv p {
+    margin: 0;
+}
+
+.timeDiv p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.profileDiv1 {
+    width: 100%;
+    height: 70%;
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* position: absolute; */
+}
+
+.imgProfile {
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.profileText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.report {
+    font-family: regularRubik;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: hsl(236, 100%, 87%);
+}
+
+.nom {
+    font-family: lightRubik;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .profile {
+        width: 90%;
+        height: 180px;
+    }
+
+    .profileDiv1 {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .imgProfile {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .imgProfileDiv {
+        /* border: 2px solid green; */
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .profileText {
+        width: 90%;
+        height: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .timeDiv {
+        font-size: 10px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 30px;
+        font-size: 16px;
+    }
+
+    .report {
+        font-size: 13px;
+    }
+
+    .nom {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .profile {
+        width: 90%;
+        height: 180px;
+    }
+
+    .profileDiv1 {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .imgProfile {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .imgProfileDiv {
+        /* border: 2px solid green; */
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .profileText {
+        width: 90%;
+        height: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .timeDiv {
+        font-size: 10px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 30px;
+        font-size: 16px;
+    }
+
+    .report {
+        font-size: 13px;
+    }
+
+    .nom {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .profile {
+        width: 80%;
+        height: 180px;
+    }
+
+    .profileDiv1 {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .imgProfile {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .imgProfileDiv {
+        /* border: 2px solid green; */
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .profileText {
+        width: 90%;
+        height: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .timeDiv {
+        font-size: 10px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 30px;
+        font-size: 16px;
+    }
+
+    .report {
+        font-size: 13px;
+    }
+
+    .nom {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile {
+        width: 65%;
+        height: 200px;
+    }
+
+    .profileDiv1 {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .imgProfile {
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .imgProfileDiv {
+        /* border: 2px solid green; */
+        height: 100%;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .profileText {
+        width: 90%;
+        height: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .timeDiv {
+        font-size: 10px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        gap: 30px;
+        font-size: 22px;
+    }
+
+    .report {
+        font-size: 18px;
+    }
+
+    .nom {
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .profile {
+        width: 20%;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profileDiv1 {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .imgProfile {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .imgProfileDiv {
+        /* border: 2px solid green; */
+        height: 40%;
+        width: 100%;
+        display: flex;
+        /* justify-content: flex-end; */
+        align-items: center;
+    }
+
+
+    .profileText {
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .timeDiv {
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .report {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .nom {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+}
